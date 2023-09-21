@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  margin-left: 10px;
+
+  & button {
+    margin-left: 10px;
+    width: 30%;
+    padding: 10px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(64, 173, 209);
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+
+    &:hover {
+      background-color: rgb(46, 134, 163);
+    }
+  }
+}
